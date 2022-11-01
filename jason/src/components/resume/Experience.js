@@ -1,11 +1,11 @@
-const Experience = [
+const experience = [
   {
     id: 1,
     category: "education",
     icon: "icon-graduation",
     year: "2007 - 2011",
     title: "Bachelor - Public Affairs Administration",
-    description: "Shanghai University of Electric Power ",
+    description: "Shanghai University of Electric Power",
   },
   {
     id: 2,
@@ -49,4 +49,4 @@ const Experience = [
   },
 ];
 
-export default Experience;
+export default experience;
