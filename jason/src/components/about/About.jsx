@@ -15,7 +15,7 @@ const About = () => {
             <p className="about__description">
               I am Jason, web developer from Vancouver, Canada.
             </p>
-            <a href="" className="btn">
+            <a href="Resume.pdf" download="Jason's Resume.pdf" className="btn">
               Download Resume
             </a>
           </div>
