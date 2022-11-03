@@ -1,7 +1,29 @@
 import React from "react";
 import "./contact.css";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_89889fb",
+        "template_2icf50i",
+        e.target,
+        "5VmGb4b7JewjV6yOC"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section className="contact container section" id="contact">
       <h2 className="section__title">Get In Touch</h2>
@@ -18,13 +40,14 @@ const Contact = () => {
           </p>
         </div>
 
-        <form action="" className="contact__form">
+        <form action="" className="contact__form" onSubmit={sendEmail}>
           <div className="contact__form-group">
             <div className="contact__form-div">
               <input
                 type="text"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                name="name"
               />
             </div>
 
@@ -33,6 +56,7 @@ const Contact = () => {
                 type="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                name="email"
               />
             </div>
           </div>
@@ -42,21 +66,22 @@ const Contact = () => {
               type="text"
               className="contact__form-input"
               placeholder="Insert your subject"
+              name="subject"
             />
           </div>
 
           <div className="contact__form-div contact__form-area">
             <textarea
-              name=""
               id=""
               cols="30"
               rows="10"
               className="contact__form-input"
               placeholder="Write your message"
+              name="message"
             ></textarea>
           </div>
 
-          <button className="btn">Send</button>
+          <button className="btn">Send Message</button>
         </form>
       </div>
     </section>
