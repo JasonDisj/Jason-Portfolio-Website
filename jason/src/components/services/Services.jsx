@@ -9,13 +9,15 @@ const Services = () => {
       id: 1,
       image: Image1,
       title: "Web Development",
-      description: "Web Development",
+      description:
+        "Client-focused, customer-centric, creating web-based software that delivers tangible business results",
     },
     {
       id: 2,
       image: Image2,
       title: "UI/UX Design",
-      description: "UI Design",
+      description:
+        "Creating the most effective UI/UX solutions for users on the web, and mobile platforms",
     },
   ];
 
