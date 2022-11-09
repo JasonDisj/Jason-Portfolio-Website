@@ -13,7 +13,9 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Jason, web developer from Vancouver, Canada.
+              I'm Jason, a Full-Stack developer from Vancouver, Canada. I'm
+              always up for new challenges, learning new skills, and keeping a
+              positive attitude!
             </p>
             <a href="Resume.pdf" download="Jason's Resume.pdf" className="btn">
               Download Resume
@@ -32,8 +34,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI design</h3>
-                <span className="skills__number">50%</span>
+                <h3 className="skills__name">UI/UX design</h3>
+                <span className="skills__number">60%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage ui__design"></span>
