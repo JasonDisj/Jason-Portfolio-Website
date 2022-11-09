@@ -32,7 +32,7 @@ const Portfolio = () => {
             filterItem("E-commerce");
           }}
         >
-          E-Commerce
+          eCommerce
         </span>
       </div>
 
