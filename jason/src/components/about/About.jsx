@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/avatar-1.png";
+import Image from "../../assets/avatar-2.png";
 
 const About = () => {
   return (
@@ -17,7 +17,11 @@ const About = () => {
               always up for new challenges, learning new skills, and keeping a
               positive attitude!
             </p>
-            <a href="Resume.pdf" download="Jason's Resume.pdf" className="btn">
+            <a
+              href="Jason's Resume.pdf"
+              download="Jason's Resume.pdf"
+              className="btn"
+            >
               Download Resume
             </a>
           </div>
