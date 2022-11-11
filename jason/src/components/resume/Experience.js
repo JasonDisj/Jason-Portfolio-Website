@@ -47,6 +47,14 @@ const experience = [
     title: "Digital Printing Machine Operator",
     description: "Oddball Workshop Inc.",
   },
+  {
+    id: 7,
+    category: "work",
+    icon: "icon-briefcase",
+    year: "2022 - Present",
+    title: "Freelance Full-Stack Developer",
+    description: "",
+  },
 ];
 
 export default experience;
