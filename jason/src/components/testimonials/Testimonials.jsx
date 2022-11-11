@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonials.css";
 import Image1 from "../../assets/John.jpeg";
+import Image2 from "../../assets/Kaiya.jpeg";
 // Import Swiper React components
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,7 +16,15 @@ const reviews = [
     title: "John Sweeney",
     subtitle: "Peer from Lighthouse Labs",
     comment:
-      "I'm really happy with our final outcome, both for finals and midterms. It was really great to work with you man!",
+      "I'm really happy with our Mario's List and Relic projects, both for midterms and finals. It was really great to work with you man!",
+  },
+  {
+    id: 2,
+    image: Image2,
+    title: "Kaiya Hedley",
+    subtitle: "Peer from Lighthouse Labs",
+    comment:
+      "I'm glad we completed our Relic project within two weeks, which we can all feel proud of. Couldn't have done it without you.",
   },
 ];
 
