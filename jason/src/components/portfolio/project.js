@@ -33,7 +33,7 @@ const Project = [
     id: 4,
     image: Project4,
     title: "Mario's List",
-    category: "E-commerce",
+    category: "eCommerce",
     description:
       "A mock version of craigslist or Kijiji where users can put video games up for sale, search, delete, and mark items as sold.",
     link: "https://github.com/JasonDisj/lighthouse-midterm-project",
