@@ -17,7 +17,7 @@ const Services = () => {
       image: Image2,
       title: "UI/UX Design",
       description:
-        "Creating the most effective UI/UX solutions for users on the web, and mobile platforms",
+        "Creating the most effective UI/UX solutions for users on the web and mobile platforms",
     },
   ];
 
