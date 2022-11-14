@@ -37,7 +37,7 @@ const Contact = () => {
               alt="hi"
             ></img>
           </h3>
-          <p className="contact__details">Please send me an email</p>
+          <p className="contact__details">Always happy to hear from you!</p>
         </div>
 
         <form action="" className="contact__form" onSubmit={sendEmail}>
