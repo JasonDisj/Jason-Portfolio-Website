@@ -9,26 +9,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const reviews = [
-  {
-    id: 1,
-    image: Image1,
-    title: "John Sweeney",
-    subtitle: "Peer from Lighthouse Labs",
-    comment:
-      "I'm really happy with our Mario's List and Relic projects, both for midterms and finals. It was really great to work with you man!",
-  },
-  {
-    id: 2,
-    image: Image2,
-    title: "Kaiya Hedley",
-    subtitle: "Peer from Lighthouse Labs",
-    comment:
-      "I'm glad we completed our Relic project within two weeks, which we can all feel proud of. Couldn't have done it without you.",
-  },
-];
-
 const Testimonials = () => {
+  const reviews = [
+    {
+      id: 1,
+      image: Image1,
+      title: "John Sweeney",
+      subtitle: "Peer from Lighthouse Labs",
+      comment:
+        "I'm really happy with our Mario's List and Relic projects, both for midterms and finals. It was really great to work with you man!",
+    },
+    {
+      id: 2,
+      image: Image2,
+      title: "Kaiya Hedley",
+      subtitle: "Peer from Lighthouse Labs",
+      comment:
+        "I'm glad we completed our Relic project within two weeks, which we can all feel proud of. Couldn't have done it without you.",
+    },
+  ];
+
   return (
     <section className="testimonials container section">
       <h2 className="section__title">Peers & Reviews</h2>
