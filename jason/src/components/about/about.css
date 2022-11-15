@@ -38,12 +38,6 @@
   text-align: justify;
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 .about__skills {
   row-gap: 1.25rem;
 }
