@@ -19,6 +19,7 @@
 .project__container {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.875rem;
+  height: calc(100vh - 20px);
 }
 
 .project__card {
