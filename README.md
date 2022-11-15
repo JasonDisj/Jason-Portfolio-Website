@@ -1,11 +1,15 @@
-## My Portfolio Website
+## Home Page
 
-!["Screenshot of website"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Jason's%20Portfolio%20Website-1.png?raw=true)
+!["Screenshot of Home Page"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Home.png?raw=true)
+
+## About Me
+
+!["Screenshot of About Me"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/About%20Me.png?raw=true)
 
 ## My Experience
 
-!["Screenshot of experience"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/My-Experience.png?raw=true)
+!["Screenshot of Experience"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Experience.png?raw=true)
 
-## Recent Projects
+## Featured Work
 
-!["Screenshot of projects"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Recent-Projects.png?raw=true)
+!["Screenshot of Projects"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Featured%20Work.png?raw=true)
