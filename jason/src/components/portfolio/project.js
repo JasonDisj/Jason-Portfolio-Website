@@ -1,7 +1,7 @@
-import Project1 from "../../assets/Realtime-Chat-App.png";
+import Project1 from "../../assets/Realtime-Chat.png";
 import Project2 from "../../assets/Relic.png";
 import Project3 from "../../assets/Scheduler.png";
-import Project4 from "../../assets/MariosList.png";
+import Project4 from "../../assets/Marioslist.png";
 
 const Project = [
   {
