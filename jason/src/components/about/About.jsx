@@ -14,7 +14,7 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               I'm a Full-Stack Developer based in Vancouver, Canada. I offer
-              both development services of web applications or websites. I'm
+              both development services for web applications and websites. I'm
               always up for new challenges and exploring other technologies and
               frameworks that catch my interest.<br></br>
               <br></br>I like to code things from scratch, and enjoy bringing
