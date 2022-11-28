@@ -1,6 +1,6 @@
 ## Home Page
 
-!["Screenshot of Home Page"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Home.png?raw=true)
+!["Screenshot of Home Page"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Home%20Page.png?raw=true)
 
 ## About Me
 
@@ -12,4 +12,4 @@
 
 ## Featured Work
 
-!["Screenshot of Projects"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Featured%20Work.png?raw=true)
+!["Screenshot of Featured Work"](https://github.com/JasonDisj/Jason-Portfolio-Website/blob/main/jason/docs/Featured%20Work.png?raw=true)
