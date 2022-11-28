@@ -17,7 +17,14 @@ const Portfolio = () => {
       <h2 className="section__title">Featured Work</h2>
 
       <div className="project__filters">
-        <span className="project__item">Everything</span>
+        <span
+          className="project__item"
+          onClick={() => {
+            setItems(Project);
+          }}
+        >
+          Everything
+        </span>
         <span
           className="project__item"
           onClick={() => {
@@ -29,7 +36,7 @@ const Portfolio = () => {
         <span
           className="project__item"
           onClick={() => {
-            filterItem("E-commerce");
+            filterItem("eCommerce");
           }}
         >
           eCommerce
