@@ -22,7 +22,7 @@ const About = () => {
               add to your team, please don't hesitate to contact me.
             </p>
             <a
-              href="Jason's Resume.pdf"
+              href="Full-Stack Developer - Jason.pdf"
               download="Jason's Resume.pdf"
               className="btn"
             >
