@@ -28,18 +28,18 @@ const Portfolio = () => {
         <span
           className="project__item"
           onClick={() => {
-            filterItem("App");
+            filterItem("Web App");
           }}
         >
-          App
+          Web App
         </span>
         <span
           className="project__item"
           onClick={() => {
-            filterItem("eCommerce");
+            filterItem("Mobile App");
           }}
         >
-          eCommerce
+          Mobile App
         </span>
       </div>
 
