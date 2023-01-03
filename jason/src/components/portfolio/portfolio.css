@@ -18,8 +18,8 @@
 
 .project__container {
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 443px;
   gap: 1.875rem;
-  height: calc(72vh - 0px);
 }
 
 .project__card {
@@ -87,7 +87,7 @@
   color: #fff;
   position: absolute;
   bottom: 1.5rem;
-  left: 1.5rem;
+  right: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
   background-color: #ffd15c;
